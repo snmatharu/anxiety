@@ -21,7 +21,7 @@ source_datasets:
 - original
 
 task_categories:
-- text-classification
+- conversational
 - text-generation
 - question-answering
 
