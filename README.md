@@ -1,37 +1,28 @@
 ---
 annotations_creators:
 - no-annotation
-
 language_creators:
 - found
-
 language:
 - en
-
-license:
-- unknown
-
+license: openrail
 multilinguality:
 - monolingual
-
 size_categories:
 - 1K<n<10K
-
 source_datasets:
 - original
-
 task_categories:
 - conversational
 - text-generation
 - question-answering
-
 task_ids:
 - sentiment-classification
 - language-modeling
 - open-domain-qa
 ---
 
-# Dataset Card for My Dataset
+# Amod/mental_health_counseling_conversations
 
 ## Table of Contents
 - [Dataset Description](#dataset-description)
@@ -87,11 +78,11 @@ The dataset has no predefined splits. Users can create their own splits as neede
 
 ### Curation Rationale
 
-This dataset was created to aid in the development of AI models that can provide mental health advice or guidance. 
+This dataset was created to aid in the development of AI models that can provide mental health advice or guidance. The raw data was meticulously cleaned to only include the conversations.
 
 ### Source Data
 
-The data was sourced from two online counseling and therapy platforms.
+The data was sourced from two online counseling and therapy platforms. The raw data can be found [here](https://github.com/nbertagnolli/counsel-chat/tree/master/data).
 
 ### Annotations
 
